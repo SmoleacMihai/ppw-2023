@@ -1,3 +1,3 @@
 # Programarea Web I
 ## Description
-A repository fo storing something that i most likely already know
+A repository for storing something that I most likely already know
