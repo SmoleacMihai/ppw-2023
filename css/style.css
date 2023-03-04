@@ -1,0 +1,202 @@
+#task5_content {
+  display: grid;
+  margin-left: 40%;
+  margin-right: 40%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+table, tr, td {
+  border:1px solid black;
+}
+
+tr td{
+  height: 10px;
+  width: 10px;
+}
+
+.task7_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+#player {
+  width: 150px;
+  height: 150px;
+}
+
+#player2 {
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#viewport {
+  position: relative;
+  height: 50vh;
+  width: 50%;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+}
+
+.parents{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+#parent-left{
+  background-color: brown;
+  width: 300px;
+  height: 300px;
+}
+
+#parent-right{
+  background-color: rgb(8, 73, 142);
+  width: 300px;
+  height: 300px;
+}
+
+#child{
+  background-color: rgb(25, 212, 178);
+  width: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.dragging {
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.tableNames {
+  display: grid;
+  grid-template-columns: 500px;
+}
+
+p{
+  margin: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 20px 40px;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.name {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.edit {
+  text-align: center;
+  cursor: pointer;
+  border-left: 1px solid #000;
+}
+
+.remove{
+  border-left: 1px solid #000;
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+
+.firstRow {
+  width: 500px;
+  background-color: rgb(244, 244, 244);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.addSection {
+  width: 560px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 500px 60px;
+  border: 1px solid #000;
+  vertical-align: middle;
+
+  border-collapse: collapse;
+}
+
+.addSection div > * {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.addSection #nameToAdd  {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.addSection #nameToAdd[type="text"] {
+  font-size: 16px;
+}
+
+.inputSubmit {
+  cursor: pointer;
+  background-color: #00b300;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Task 10 */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.leftUp {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leftDown {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rightUp {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rightDown {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Taks 6 */
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
